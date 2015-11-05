@@ -1,0 +1,64 @@
+c:\users\raniere\documents\visual studio 2015\Projects\Game\Game\bin\Debug\Game.exe.config
+c:\users\raniere\documents\visual studio 2015\Projects\Game\Game\bin\Debug\Game.exe
+c:\users\raniere\documents\visual studio 2015\Projects\Game\Game\bin\Debug\Game.pdb
+c:\users\raniere\documents\visual studio 2015\Projects\Game\Game\obj\Debug\Game.Properties.Resources.resources
+c:\users\raniere\documents\visual studio 2015\Projects\Game\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+c:\users\raniere\documents\visual studio 2015\Projects\Game\Game\obj\Debug\Game.exe
+c:\users\raniere\documents\visual studio 2015\Projects\Game\Game\obj\Debug\Game.pdb
+C:\Users\FabianoeRosangela\Desktop\Faculdade\Analise e Desenvolvimento de Sistemas\4º periodo\C#\Game\Game\bin\Debug\Game.exe.config
+C:\Users\FabianoeRosangela\Desktop\Faculdade\Analise e Desenvolvimento de Sistemas\4º periodo\C#\Game\Game\obj\Debug\Game.exe
+C:\Users\FabianoeRosangela\Desktop\Faculdade\Analise e Desenvolvimento de Sistemas\4º periodo\C#\Game\Game\obj\Debug\Game.pdb
+C:\Users\FabianoeRosangela\Desktop\Faculdade\Analise e Desenvolvimento de Sistemas\4º periodo\C#\Game\Game\bin\Debug\Game.exe
+C:\Users\FabianoeRosangela\Desktop\Faculdade\Analise e Desenvolvimento de Sistemas\4º periodo\C#\Game\Game\bin\Debug\Game.pdb
+C:\Users\FabianoeRosangela\Desktop\Faculdade\Analise e Desenvolvimento de Sistemas\4º periodo\C#\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+C:\Users\FabianoeRosangela\Desktop\Faculdade\Analise e Desenvolvimento de Sistemas\4º periodo\C#\Game\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\FabianoeRosangela\Desktop\Faculdade\Analise e Desenvolvimento de Sistemas\4º periodo\C#\Game\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+C:\Users\informatica.FLA\Desktop\Game\Game\bin\Debug\Game.exe.config
+C:\Users\informatica.FLA\Desktop\Game\Game\obj\Debug\Game.exe
+C:\Users\informatica.FLA\Desktop\Game\Game\obj\Debug\Game.pdb
+C:\Users\informatica.FLA\Desktop\Game\Game\bin\Debug\Game.exe
+C:\Users\informatica.FLA\Desktop\Game\Game\bin\Debug\Game.pdb
+C:\Users\informatica.FLA\Desktop\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+C:\Users\informatica.FLA\Desktop\Game\Game\obj\Debug\Game.Form1.resources
+C:\Users\informatica.FLA\Desktop\Game\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\informatica.FLA\Desktop\Game\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+C:\Users\fla.9902005766\Desktop\Game-14-10-2015\Game\Game\bin\Debug\Game.exe.config
+C:\Users\fla.9902005766\Desktop\Game-14-10-2015\Game\Game\obj\Debug\Game.exe
+C:\Users\fla.9902005766\Desktop\Game-14-10-2015\Game\Game\obj\Debug\Game.pdb
+C:\Users\fla.9902005766\Desktop\Game-14-10-2015\Game\Game\bin\Debug\Game.exe
+C:\Users\fla.9902005766\Desktop\Game-14-10-2015\Game\Game\bin\Debug\Game.pdb
+C:\Users\fla.9902005766\Desktop\Game-14-10-2015\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+C:\Users\fla.9902005766\Desktop\Game-14-10-2015\Game\Game\obj\Debug\Game.Form1.resources
+C:\Users\fla.9902005766\Desktop\Game-14-10-2015\Game\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\fla.9902005766\Desktop\Game-14-10-2015\Game\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+C:\Users\fla.9902005766\Desktop\aula 2b (Game-14-10-2015)\Game\Game\bin\Debug\Game.exe.config
+C:\Users\fla.9902005766\Desktop\aula 2b (Game-14-10-2015)\Game\Game\obj\Debug\Game.exe
+C:\Users\fla.9902005766\Desktop\aula 2b (Game-14-10-2015)\Game\Game\obj\Debug\Game.pdb
+C:\Users\fla.9902005766\Desktop\aula 2b (game-21-10-2015)\Game\Game\bin\Debug\Game.exe.config
+C:\Users\fla.9902005766\Desktop\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.exe
+C:\Users\fla.9902005766\Desktop\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.pdb
+C:\Users\fla.9902005766\Desktop\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+C:\Users\fla.9902005766\Desktop\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.Form1.resources
+C:\Users\fla.9902005766\Desktop\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\fla.9902005766\Desktop\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+C:\Users\fla.9902005766\Desktop\aula 2b (game-21-10-2015)\Game\Game\bin\Debug\Game.exe
+C:\Users\fla.9902005766\Desktop\aula 2b (game-21-10-2015)\Game\Game\bin\Debug\Game.pdb
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-21-10-2015)-2015-10-28\aula 2b (game-21-10-2015)\Game\Game\bin\Debug\Game.exe.config
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-21-10-2015)-2015-10-28\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.exe
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-21-10-2015)-2015-10-28\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.pdb
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-21-10-2015)-2015-10-28\aula 2b (game-21-10-2015)\Game\Game\bin\Debug\Game.exe
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-21-10-2015)-2015-10-28\aula 2b (game-21-10-2015)\Game\Game\bin\Debug\Game.pdb
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-21-10-2015)-2015-10-28\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-21-10-2015)-2015-10-28\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.Form1.resources
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-21-10-2015)-2015-10-28\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-21-10-2015)-2015-10-28\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-28-10-2015)\aula 2b (game-21-10-2015)\Game\Game\bin\Debug\Game.exe.config
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-28-10-2015)\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.exe
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-28-10-2015)\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.pdb
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-28-10-2015)\aula 2b (game-21-10-2015)\Game\Game\bin\Debug\Game.exe
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-28-10-2015)\aula 2b (game-21-10-2015)\Game\Game\bin\Debug\Game.pdb
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-28-10-2015)\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-28-10-2015)\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.Form1.resources
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-28-10-2015)\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-28-10-2015)\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.csproj.GenerateResource.Cache
+C:\Users\fla.9902005766\Desktop\aula_2b_(game-28-10-2015)\aula 2b (game-21-10-2015)\Game\Game\obj\Debug\Game.Form2.resources
