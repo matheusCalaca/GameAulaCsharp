@@ -49,15 +49,19 @@
             // lplVida
             // 
             this.lplVida.AutoSize = true;
-            this.lplVida.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lplVida.BackColor = System.Drawing.Color.Transparent;
+            this.lplVida.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, ((System.Drawing.FontStyle)((((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline) 
+                | System.Drawing.FontStyle.Strikeout))), System.Drawing.GraphicsUnit.Point, ((byte)(0)), true);
+            this.lplVida.ForeColor = System.Drawing.Color.Crimson;
             this.lplVida.Location = new System.Drawing.Point(176, 33);
             this.lplVida.Name = "lplVida";
-            this.lplVida.Size = new System.Drawing.Size(86, 31);
+            this.lplVida.Size = new System.Drawing.Size(0, 31);
             this.lplVida.TabIndex = 0;
-            this.lplVida.Text = "label1";
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.configuracaoToolStripMenuItem,
             this.restartToolStripMenuItem,
@@ -126,6 +130,7 @@
             // ldlGameOver
             // 
             this.ldlGameOver.AutoSize = true;
+            this.ldlGameOver.BackColor = System.Drawing.Color.Transparent;
             this.ldlGameOver.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ldlGameOver.ForeColor = System.Drawing.Color.Red;
             this.ldlGameOver.Location = new System.Drawing.Point(49, 129);
@@ -149,6 +154,7 @@
             // time
             // 
             this.time.AutoSize = true;
+            this.time.BackColor = System.Drawing.Color.Transparent;
             this.time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.time.Location = new System.Drawing.Point(12, 24);
             this.time.Name = "time";
@@ -159,6 +165,7 @@
             // ldlPontos
             // 
             this.ldlPontos.AutoSize = true;
+            this.ldlPontos.BackColor = System.Drawing.Color.Transparent;
             this.ldlPontos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ldlPontos.Location = new System.Drawing.Point(12, 44);
             this.ldlPontos.Name = "ldlPontos";
@@ -170,6 +177,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(484, 512);
             this.Controls.Add(this.ldlPontos);
             this.Controls.Add(this.time);

@@ -9,7 +9,7 @@ namespace Game.Objetos
     class Pontuacao
     {
         DateTime data;
-        int pontos;
+        long pontos;
 
         public DateTime Data
         {
@@ -24,7 +24,7 @@ namespace Game.Objetos
             }
         }
 
-        public int Pontos
+        public long Pontos
         {
             get
             {

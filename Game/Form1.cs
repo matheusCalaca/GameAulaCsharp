@@ -48,9 +48,10 @@ namespace Game
 
         
 
-        Image newImage = Image.FromFile("C:/Users/fla.9902005766/Desktop/aula_2b_(game-28-10-2015)/aula 2b (game-21-10-2015)/Game/Game/img/teste2.png");
-        Image newImage2 = Image.FromFile("C:/Users/fla.9902005766/Desktop/aula_2b_(game-28-10-2015)/aula 2b (game-21-10-2015)/Game/Game/img/escudo.png");
-        Image newImage3 = Image.FromFile("C:/Users/fla.9902005766/Desktop/aula_2b_(game-28-10-2015)/aula 2b (game-21-10-2015)/Game/Game/img/teste.png");
+        Image newImage = Image.FromFile("C:/Users/fla.9902005766/Desktop/aula_2b_(game-04-11-2015)/aula 2b (game-21-10-2015)/Game/Game/img/teste2.png");
+        Image newImage2 = Image.FromFile("C:/Users/fla.9902005766/Desktop/aula_2b_(game-04-11-2015)/aula 2b (game-21-10-2015)/Game/Game/img/1446696893_Captain_America.ico");
+        Image newImage3 = Image.FromFile("C:/Users/fla.9902005766/Desktop/aula_2b_(game-04-11-2015)/aula 2b (game-21-10-2015)/Game/Game/img/teste.png");
+        Image newImage4 = Image.FromFile("C:/Users/fla.9902005766/Desktop/aula_2b_(game-04-11-2015)/aula 2b (game-21-10-2015)/Game/Game/img/teste3.png");
 
         public Form1()
         {
@@ -171,16 +172,23 @@ namespace Game
             circulo.PosX = r.Next(0, 700);//sorteio do numero dentro do interalo --r.Next(0, 700)---- e coloca na posicao X
            // circulo.PosY = r.Next(0, 700);//sorteio do numero dentro do interalo --r.Next(0, 700)---- e coloca na posicao X
             circulo.Cor = Color.Azure;//colocando a cor
-            circulo.tipo = 1;
+            circulo.Tipo = 1;
 
             Circulo circulo2 = new Circulo();//criar um circuloC:\Users\fla.9902005766\Desktop\aula_2b_(game-28-10-2015)\aula 2b (game-21-10-2015)\Game\Game\Objetos\Circulo.cs
             circulo2.PosX = r.Next(0, 700);//sorteio do numero dentro do interalo --r.Next(0, 700)---- e coloca na posicao X
                                           // circulo.PosY = r.Next(0, 700);//sorteio do numero dentro do interalo --r.Next(0, 700)---- e coloca na posicao X
             circulo2.Cor = Color.Azure;//colocando a cor
-            circulo2.tipo = 2;
+            circulo2.Tipo = 2;
+
+            Circulo circulo3 = new Circulo();//criar um circuloC:\Users\fla.9902005766\Desktop\aula_2b_(game-28-10-2015)\aula 2b (game-21-10-2015)\Game\Game\Objetos\Circulo.cs
+            circulo3.PosX = r.Next(0, 700);//sorteio do numero dentro do interalo --r.Next(0, 700)---- e coloca na posicao X
+                                           // circulo.PosY = r.Next(0, 700);//sorteio do numero dentro do interalo --r.Next(0, 700)---- e coloca na posicao X
+            circulo3.Cor = Color.Azure;//colocando a cor
+            circulo3.Tipo = 3;
 
             lista.Add(circulo);//adicionando um circulo na lista
             lista.Add(circulo2);
+            lista.Add(circulo3);
             Invalidate();//redesenhando a tela
         }
 
@@ -286,14 +294,24 @@ namespace Game
             {
                 for (i = 0; i < lista.Count; i++)
                 {
-                    Contorno = new Pen(Color.Black);//definindo cor do contorno
-                    prenchimento = new SolidBrush(lista[i].Cor);//definindo cor do prenchimento
-                    Contorno.Width = 2;//definindo tamanho da caneta
-                   // g.DrawEllipse(Contorno, lista[i].PosX, lista[i].PosY, 20, 20);//contorno da tela
-                   // g.FillEllipse(prenchimento, lista[i].PosX, lista[i].PosY, lista[i].Raio, lista[i].Raio);//prenchimento da tela
-                    g.DrawImage(newImage, lista[i].PosX, lista[i].PosY, lista[i].Raio, lista[i].Raio);
-                    
-                }
+                    if (lista[i].Tipo == 1)
+                    {
+                        Contorno = new Pen(Color.Black);//definindo cor do contorno
+                        prenchimento = new SolidBrush(lista[i].Cor);//definindo cor do prenchimento
+                        Contorno.Width = 2;//definindo tamanho da caneta
+                                           // g.DrawEllipse(Contorno, lista[i].PosX, lista[i].PosY, 20, 20);//contorno da tela
+                                           // g.FillEllipse(prenchimento, lista[i].PosX, lista[i].PosY, lista[i].Raio, lista[i].Raio);//prenchimento da tela
+                        g.DrawImage(newImage, lista[i].PosX, lista[i].PosY, lista[i].Raio, lista[i].Raio);
+                    }
+                    else if (lista[i].Tipo == 2)
+                    {
+                        g.DrawImage(newImage3, lista[i].PosX, lista[i].PosY, lista[i].Raio, lista[i].Raio);
+                    }
+                    else if (lista[i].Tipo == 3)
+                    {
+                        g.DrawImage(newImage4, lista[i].PosX, lista[i].PosY, lista[i].Raio, lista[i].Raio);
+                    }
+                    }
 
                 /*
                 while (i < lista.Count)//conta a quantidade de elemeto da tela (lista.Count) //------exemplo de codigo while em c#---------
@@ -401,25 +419,42 @@ namespace Game
             dece.Start();
             seg.Start();
         }
-
-        private void restartBT_Click(object sender, EventArgs e)
-        {
-            restartFucao();
-            
-        }
-
-        private void restartToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            restartFucao();
-        }
-
-        private void novoJogoToolStripMenuItem_Click(object sender, EventArgs e)
+        //novo jogador
+        private void novoJogador()
         {
             Form2 f = new Form2();
             f.ShowDialog(); //bloquea a tela anterior ate finalizar a nova
 
             player = new Player();
             player.Nome = f.nome;
+
+            if (player.Carregar())
+            {
+                MessageBox.Show("Dados Carregado !");
+
+            }
+            else
+            {
+                MessageBox.Show("erro !");
+            }
+        }
+
+        private void restartBT_Click(object sender, EventArgs e)
+        {
+            novoJogador();
+            restartFucao();
+            
+        }
+
+        private void restartToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            novoJogador();
+            restartFucao();
+        }
+
+        private void novoJogoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            novoJogador();
             restartFucao();
 
         }
